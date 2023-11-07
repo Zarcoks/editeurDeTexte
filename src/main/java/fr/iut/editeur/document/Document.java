@@ -33,6 +33,10 @@ public class Document {
         this.remplacer(start, end, "");
     }
 
+    public void clear() {
+        this.texte = "abc";
+    }
+
     @Override
     public String toString() {
         return this.texte;
