@@ -41,7 +41,7 @@ public class Document {
 
     public void clear() {
         this.lastState = this.texte;
-        this.texte = "abc";
+        this.texte = "";
     }
 
     public void undo() {
