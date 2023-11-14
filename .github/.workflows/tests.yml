@@ -14,4 +14,6 @@ jobs:
         uses: actions/setup-java@v1
       #Suite des actions...
       - name: Maven_Run
-        run: mvn test
+        run: mvn
+        with:
+          param1: test
