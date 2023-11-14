@@ -8,6 +8,11 @@ import fr.iut.editeur.commande.factory.CommandeFactory;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * @param args
+     *
+     * Lance un scanner, enfin j'ai pas lu mais ça marche
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Document document = new Document();

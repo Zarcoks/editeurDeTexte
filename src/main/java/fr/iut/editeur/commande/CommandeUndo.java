@@ -7,6 +7,10 @@ public class CommandeUndo extends CommandeDocument {
         super(document, parameters);
     }
 
+    /**
+     *
+     * Exécute la commande (sacrée surprise!)
+     */
     @Override
     public void executer() {
         this.document.undo();
