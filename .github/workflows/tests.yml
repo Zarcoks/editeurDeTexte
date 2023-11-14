@@ -12,6 +12,8 @@ jobs:
       #Suite des actions...
       - name: Setup
         uses: actions/setup-java@v1
+        with:
+          java-version: 21
       #Suite des actions...
       - name: Maven_Run
         run: mvn test
