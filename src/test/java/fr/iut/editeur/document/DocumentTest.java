@@ -10,6 +10,6 @@ public class DocumentTest extends TestCase {
         d.ajouter("Hello World!");
         assertEquals(d.getTexte(), "Hello World!");
         d.clear();
-        assertEquals(d.getTexte(), "");
+        assertEquals(d.getTexte(), "a");
     }
 }
